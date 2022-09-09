@@ -1,5 +1,5 @@
 const Cryptr = require('cryptr');
-const cryptr = new Cryptr('manhhuy-v-poker-keys');
+const cryptr = new Cryptr('manhhuy-wolfgame');
 const db = require('./db')
 
 const login = async (req, res) => {

@@ -12,7 +12,7 @@ const notification = require('./notification')
 const cors = require('cors');
 const socket = require('./socket');
 
-var whitelist = ['http://localhost:3000', 'https://v-poker.vercel.app']
+var whitelist = ['http://localhost:3000', 'https://wolfgame.vercel.app']
 var corsOptions = {
   credentials: true,
   origin: function (origin, callback) {
