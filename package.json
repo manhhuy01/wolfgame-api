@@ -1,0 +1,32 @@
+{
+  "name": "wolfgame-api",
+  "version": "1.0.0",
+  "description": "BE ma sói game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhhuy01/wolfgame-api.git"
+  },
+  "author": "manhhuy01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manhhuy01/wolfgame-api/issues"
+  },
+  "homepage": "https://github.com/manhhuy01/wolfgame-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "pg": "^8.6.0",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
